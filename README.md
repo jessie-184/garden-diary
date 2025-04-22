@@ -46,29 +46,38 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [ ] Vegetables Screen
+* User can view a list of vegetables with parts of their description
+* User can search the vegetable information by keyword
+- [ ] Vegetable Details Screen
+* User can see information related to the gardening process of selected vegetable
+* User can add the selected vegetable to the My Garden tab
+- [ ] My Garden Screen
+* User can view a list of added vegetables along with the countdown until harvest date
+* User can delete the vegetable that they want out of the My Garden tab
+- [ ] Vegetable Notes Screen
+* User can view a list of notes about the selected vegetables the have added before
+* User can add notes for the selected vegetable from My Garen tab
+* User can delete a specific notes that they don't need anymore
+- [ ] Pests Screen
+* User can view a list of pests you might face when growing vegetables
+* User can search the pest information by keyword
+- [ ] Pest Details Screen
+* User can see information related to the selected pests
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Vegetables Screen
+* My Garden Screen
+* Pests Screen
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- Vegetabels Screen => Vegetable Details Screen
+- My Garden Screen => Vegetable Notes Screen
+- Pests Screen => Pest Details Screen
 
 ## Wireframes
 
