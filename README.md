@@ -1,4 +1,4 @@
-# ☘️ GARDEN DIARY
+# ☘️ GARDEN DIARY ☘️
 
 ## Table of Contents
 
