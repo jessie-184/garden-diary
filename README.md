@@ -28,13 +28,21 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can view basic information about different kinds of vegetables
+* User can have access to basic information about pests
+* User can add a new vegetable to their garden
+* User can view a list of vegetables currently in their garden
+* User can record a growth update for a specific vegetable
+* User can see the estimated countdown until the harvest date for each vegetable
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can receive notifications for upcoming tasks (e.g., watering reminders, estimated harvest approaching)
+* User can identify potential pests based on photos or descriptions and get basic information/solutions
+* User can search the vegetable information database by keyword (e.g., "tomatoes," "root vegetables")
+* User can enable location services to personalize the app experience
+* User can view general gardening tips relevant to their detected location and current season
+* User can share gardening tips or ask for advice with other users in their general vicinity
 
 ### 2. Screen Archetypes
 
