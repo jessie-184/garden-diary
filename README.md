@@ -5,7 +5,6 @@
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
-4. [Schema](#Schema)
 
 ## Overview
 
@@ -87,17 +86,3 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
-
-## Schema 
-
-[This section will be completed in Unit 9]
-
-### Models
-
-[Add table of models]
-
-### Networking
-
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
