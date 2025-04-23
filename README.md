@@ -81,12 +81,7 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+<img src="https://media-hosting.imagekit.io/e51e54e90cf146e4/IMG_0175.PNG?Expires=1839993491&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=C-uBcp3Cp1ZSNXu9wfecWKl~wqSRgVtHgBFKWGZoZ4x88qq2W5VqEcSixsPouEYI0nhAdY~ZPDY12JmkWVWsgbgw4xAsQkzrsOUyg3UgIhlsenRC1eQ5WUKfcdbciVeUMEiRpfO-MSoE9lN1NkOLOmfMG0IUYcfVq9gDb8KeBxh7TqbSe48hlvBvEAyB48HejCom0PElthUOYr9tkWuWCecnjNIub1FBMJs-Db9tQcFlwGmkXphPB1M~mfpjLL9m~tJvqUS6nysfysdO4shlGh5udBxmyxbKPlaIA4Jt4c79Es8kTMgpqSc8Y36KiSHAISVU3ffd3HsfL84tgrXZTQ__" width=600>
 
 ## Schema 
 
