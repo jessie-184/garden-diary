@@ -5,6 +5,7 @@
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 
@@ -86,3 +87,42 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+
+## Schema 
+
+### Models
+
+#### Vegetable
+| Property      | Type     | Description |
+| ------------- | -------- | ----------- |
+| vegetableCode | String   | unique identifier for the vegetable |
+| name          | String   | vegetable's name |
+| body          | String   | brief description of the vegetable|
+| thumbnailImage| URL      | vegetable thumbnail image |
+| seedDepth     | String   | recommended planting depth for the seeds |
+| germinationSoilTemp     | String   | optimal soil temperature for seed germination |
+| daysToGermination     | Integer   | number of days it typically takes for seeds to germinate |
+| sowIndoors     | String   | recommendations for starting seeds indoors |
+| sowOutdoors     | String   | ecommendations for starting seeds outdoors |
+| phRange     | String   | ideal pH range for the soil the vegetable grows best in |
+| growingSoilTemp     | String   | optimal soil temperature for the vegetable to grow |
+| spacingBeds    | String   | recommended spacing between plants when planting in beds |
+| watering    | String   | general guidelines for watering the vegetable |
+| light    | String   | amount of sunlight the vegetable requires |
+| goodCompanions     | String   | a list of plants that grow well alongside this vegetable |
+| badCompanions    | String   | a list of plants that do not grow well alongside this vegetable | 
+| sowingDescription   | String   | more detailed description of the sowing process |
+| growingDescription     | String   | detailed description of how to grow the vegetable | 
+| harvestDescription     | String   | description of when and how to harvest the vegetable | 
+| active     | Boolean   | indicates whether the vegetable entry is currently active or available |
+| season     | String   | a list of seasons when this vegetable typically grows or is available |
+| daysToHarvestSeeds     | Integer   | number of days from planting to when seeds can be harvested from the plant |
+| daysToHarvestSeddlings     | Integer   | number of days from planting to when the vegetable is typically ready for harvest as seedlings |
+| healthBenefits     | String   | summary of the health benefits associated with consuming this vegetable |
+| pests    | Array   | an array of Pest objects associated with this vegetable |
+
+### Networking
+
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
