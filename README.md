@@ -75,9 +75,9 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 **Flow Navigation** (Screen to Screen)
 
-- Vegetabels Screen => Vegetable Details Screen
-- My Garden Screen => Vegetable Notes Screen
-- Pests Screen => Pest Details Screen
+- [ ] Vegetabels Screen => Vegetable Details Screen
+- [ ] My Garden Screen => Vegetable Notes Screen
+- [ ] Pests Screen => Pest Details Screen
 
 ## Wireframes
 
@@ -123,6 +123,35 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### Basic Network Request Example
+```swift
+func fetchVegetables() {
+    let url = URL(string: "https://azamsharp.com/vegetables.json")!
+    let task = URLSession.shared.dataTask(with: url) { data, response, error in
+        if let error = error {
+            print("Error fetching vegetables: \(error)")
+            return
+        }
+        guard let data = data else {
+            print("No vegetable data received")
+            return
+        }
+        do {
+            let vegetables = try JSONDecoder().decode([Vegetable].self, from: data)
+            DispatchQueue.main.async {
+                print("Successfully fetched and (potentially) updated vegetables.")
+            }
+        } catch {
+            print("Error decoding vegetable JSON: \(error)")
+        }
+    }
+    task.resume()
+}
+```
+#### List of API Endpoints
+##### Vegetable API
+- Base URL - [https://azamsharp.com/vegetables.json](https://azamsharp.com/vegetables.json)
+
+| HTTP Verb | Endpoint | Description |
+| --------- | -------- | ----------- |
+| `GET`     | /vegetables | Get a list of vegetable details |
