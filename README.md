@@ -46,10 +46,10 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 ### 2. Screen Archetypes
 
-- [ ] Vegetables Screen
+- [x] Vegetables Screen
 * User can view a list of vegetables with parts of their description
 * User can search the vegetable information by keyword
-- [ ] Vegetable Details Screen
+- [x] Vegetable Details Screen
 * User can see information related to the gardening process of selected vegetable
 * User can add the selected vegetable to the My Garden tab
 - [ ] My Garden Screen
@@ -75,13 +75,24 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Vegetabels Screen => Vegetable Details Screen
+- [x] Vegetabels Screen => Vegetable Details Screen
 - [ ] My Garden Screen => Vegetable Notes Screen
 - [ ] Pests Screen => Pest Details Screen
 
 ## Wireframes
 
 <img src="https://media-hosting.imagekit.io/e51e54e90cf146e4/IMG_0175.PNG?Expires=1839993491&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=C-uBcp3Cp1ZSNXu9wfecWKl~wqSRgVtHgBFKWGZoZ4x88qq2W5VqEcSixsPouEYI0nhAdY~ZPDY12JmkWVWsgbgw4xAsQkzrsOUyg3UgIhlsenRC1eQ5WUKfcdbciVeUMEiRpfO-MSoE9lN1NkOLOmfMG0IUYcfVq9gDb8KeBxh7TqbSe48hlvBvEAyB48HejCom0PElthUOYr9tkWuWCecnjNIub1FBMJs-Db9tQcFlwGmkXphPB1M~mfpjLL9m~tJvqUS6nysfysdO4shlGh5udBxmyxbKPlaIA4Jt4c79Es8kTMgpqSc8Y36KiSHAISVU3ffd3HsfL84tgrXZTQ__" width=600>
+
+## Current Build Progress Demo
+
+<div>
+    <a href="https://www.loom.com/share/37349be8e24f40c7995fc9bdc3a6ec08">
+      <p>Garden Diary - DEMO 1 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/37349be8e24f40c7995fc9bdc3a6ec08">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/37349be8e24f40c7995fc9bdc3a6ec08-b22d1746bdc4e43a-full-play.gif">
+    </a>
+  </div>
 
 ## Schema 
 
@@ -120,7 +131,7 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 
 #### Basic Network Request Example
 ```swift
-static func loadAllVegetables() -> [Vegetable] {
+static func loadVegetables() -> [Vegetable] {
     guard let url = Bundle.main.url(forResource: "vegetables", withExtension: "json") else {
         return []
     }
