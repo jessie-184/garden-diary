@@ -11,7 +11,7 @@ import SwiftUI
 struct GardenDiaryApp: App {
     var body: some Scene {
         WindowGroup {
-            VegetablesScreen()
+            VegetableTabBarScreen()
         }
     }
 }
