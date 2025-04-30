@@ -1,5 +1,5 @@
 //
-//  VegetableTabBarScreen.swift
+//  VegetableTabBar.swift
 //  GardenDiary
 //
 //  Created by Jessie Quach on 4/22/25.
@@ -40,8 +40,7 @@ struct VegetableTabBarScreen: View {
                 }
             
             NavigationStack {
-                Text("Pests")
-                // PestListScreen(pests: pests)
+                PestListScreen(pests: pests)
             }.tabItem {
                     Image(systemName: "ladybug")
                     Text("Pests")
@@ -49,8 +48,8 @@ struct VegetableTabBarScreen: View {
             
         }.task {
             do {
-                let api = VegetableDataAPI()
-                vegetables = try await api.fetchVegetables()
+                let client = VegetableHTTPClient()
+                vegetables = try await client.fetchVegetables()
             } catch {
                 print(error.localizedDescription)
             }
