@@ -52,17 +52,17 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 - [x] Vegetable Details Screen
 * User can see information related to the gardening process of selected vegetable
 * User can add the selected vegetable to the My Garden tab
-- [ ] My Garden Screen
+- [x] My Garden Screen
 * User can view a list of added vegetables along with the countdown until harvest date
 * User can delete the vegetable that they want out of the My Garden tab
-- [ ] Vegetable Notes Screen
+- [x] Vegetable Notes Screen
 * User can view a list of notes about the selected vegetables the have added before
 * User can add notes for the selected vegetable from My Garen tab
 * User can delete a specific notes that they don't need anymore
-- [ ] Pests Screen
+- [x] Pests Screen
 * User can view a list of pests you might face when growing vegetables
 * User can search the pest information by keyword
-- [ ] Pest Details Screen
+- [x] Pest Details Screen
 * User can see information related to the selected pests
 
 ### 3. Navigation
@@ -76,15 +76,16 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
 **Flow Navigation** (Screen to Screen)
 
 - [x] Vegetabels Screen => Vegetable Details Screen
-- [ ] My Garden Screen => Vegetable Notes Screen
-- [ ] Pests Screen => Pest Details Screen
+- [x] My Garden Screen => Vegetable Notes Screen
+- [x] Pests Screen => Pest Details Screen
 
 ## Wireframes
 
 <img src="https://media-hosting.imagekit.io/e51e54e90cf146e4/IMG_0175.PNG?Expires=1839993491&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=C-uBcp3Cp1ZSNXu9wfecWKl~wqSRgVtHgBFKWGZoZ4x88qq2W5VqEcSixsPouEYI0nhAdY~ZPDY12JmkWVWsgbgw4xAsQkzrsOUyg3UgIhlsenRC1eQ5WUKfcdbciVeUMEiRpfO-MSoE9lN1NkOLOmfMG0IUYcfVq9gDb8KeBxh7TqbSe48hlvBvEAyB48HejCom0PElthUOYr9tkWuWCecnjNIub1FBMJs-Db9tQcFlwGmkXphPB1M~mfpjLL9m~tJvqUS6nysfysdO4shlGh5udBxmyxbKPlaIA4Jt4c79Es8kTMgpqSc8Y36KiSHAISVU3ffd3HsfL84tgrXZTQ__" width=600>
 
-## Current Build Progress Demo
+## Demos
 
+### Demo 1
 <div>
     <a href="https://www.loom.com/share/37349be8e24f40c7995fc9bdc3a6ec08">
       <p>Garden Diary - DEMO 1 - Watch Video</p>
@@ -92,7 +93,17 @@ A garden tracker app is a companion for gardeners, providing a wealth of informa
     <a href="https://www.loom.com/share/37349be8e24f40c7995fc9bdc3a6ec08">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/37349be8e24f40c7995fc9bdc3a6ec08-b22d1746bdc4e43a-full-play.gif">
     </a>
-  </div>
+</div>
+
+### Demo 2 (Current Version)
+<div>
+    <a href="https://www.loom.com/share/effe95d3cbab4cd39edfc6563a07b00e">
+      <p>Hieu Quach - Garden Diary Final Demo  - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/effe95d3cbab4cd39edfc6563a07b00e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/effe95d3cbab4cd39edfc6563a07b00e-7056877ce08349f2-full-play.gif">
+    </a>
+</div>
 
 ## Schema 
 
